@@ -1,0 +1,13 @@
+Pasos para generar PDB
+
+1) Para tener todo lo necesario en la carpeta 
+    make install
+    
+2) Para generar PDB por separado 
+
+    make 15-puzzle/abs_15_1.pdb
+    make 15-puzzle/abs_15_2.pdb
+    make 15-puzzle/abs_15_3.pdb
+    
+    2.1) Si quiere generar los PDB juntos entonces
+        make all

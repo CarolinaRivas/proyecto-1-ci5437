@@ -1,0 +1,14 @@
+Primero se debe compilar de esta forma:
+
+~$ make <nombre del problema>.dfs h=<prunnig level>
+Para compilar sin eliminacion de duplicados se debe colocar h=0 
+Para compilar con eliminacion de duplicados se debe colocar h=1
+ejem:~$ make tower-of-hanoi-4-18.dfs h=0 
+
+y para ejecutar el programa:
+
+~$ ./<nombre del problema>.dfs <cantidad de minutos que se va a correr>
+
+ejem: ~$ ./tower-of-hanoi-4-18.dfs 5 (para correrlo por 5 minutos)
+
+Despues de ejecutar el programa es recomendable hacer un make clean 

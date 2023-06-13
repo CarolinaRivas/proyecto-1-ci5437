@@ -1,0 +1,8 @@
+Para correr
+    1) make all -> genera los archivos PDB
+    2) make top-spin-compact-12-4.ida -> compila IDA*
+    3) make top-spin-compact-12-4.a -> compila A*
+    4) ./top-spin-compact-12-4.a -> para correr A*
+    5) ./top-spin-compact-12-4.ida -> para correr IDA*
+    Ingresar test.txt que es el caso de prueba generado
+

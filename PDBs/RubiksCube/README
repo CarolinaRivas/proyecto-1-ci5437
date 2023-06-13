@@ -1,0 +1,10 @@
+Para correr
+    1) make all -> genera los archivos PDB
+    2) make rubik3Stick.ida -> compila IDA*
+    3) make rubik3Stick.a -> compila A*
+    4) ./rubik3Stick.a -> para correr A*
+    5) ./rubik3Stick.ida -> para correr IDA*
+    Ingresar cualquiera de los casos de prueba
+    (rubik3.d=005,rubik3.d=010, rubik3.d=015,
+    rubik3.d=020, rubik3.d=040, rubik3.d=080,
+    rubik3.d=160)

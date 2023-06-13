@@ -1,0 +1,4 @@
+abstraction {
+  COLOUR { RED GREEN BLUE RED RED RED }
+  projection { P K P K P K P K P K P K P K P K P K P K P K P K P K P K P K P K P K P K P K P K P K P K P K P K }
+}

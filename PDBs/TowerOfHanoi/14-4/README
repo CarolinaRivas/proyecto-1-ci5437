@@ -1,0 +1,8 @@
+Para correr
+    1) make all -> genera los archivos PDB
+    2) make towers-of-hanoi-4-14.ida -> compila IDA*
+    3) make towers-of-hanoi-4-14.a -> compila A*
+    4) ./towers-of-hanoi-4-14.a -> para correr A*
+    5) ./towers-of-hanoi-4-14.ida -> para correr IDA*
+    Ingresar test_14.txt que es el caso de prueba generado
+

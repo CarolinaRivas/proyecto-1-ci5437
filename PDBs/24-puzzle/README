@@ -1,0 +1,13 @@
+Pasos para generar PDB
+
+1) Para tener todo lo necesario en la carpeta 
+    make install
+    
+2) Para generar las PDB    
+    make 24-puzzle/abs_24_1.pdb
+    make 24-puzzle/abs_24_2.pdb
+    make 24-puzzle/abs_24_3.pdb
+    make 24-puzzle/abs_24_4.pdb
+    
+Nota: Si quiere generar los PDB juntos haga:
+        make all

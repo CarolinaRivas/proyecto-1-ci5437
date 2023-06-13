@@ -1,0 +1,60 @@
+# This file was created by the abstractor program.
+# The source PSVN file was: 15-puzzle.psvn
+# The abstraction used is stored in file: abs_15_3.abst
+
+DOMAIN TILE 16
+  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+
+16
+TILE TILE TILE TILE TILE TILE TILE TILE TILE TILE TILE TILE TILE TILE TILE TILE
+
+0 - - - X - - - - - - - - - - - => X - - - 0 - - - - - - - - - - - LABEL MOVE_BLANK_DOWN_0 COST 1
+0 X - - - - - - - - - - - - - - => X 0 - - - - - - - - - - - - - - LABEL MOVE_BLANK_RIGHT_0 COST 1
+- 0 - - - X - - - - - - - - - - => - X - - - 0 - - - - - - - - - - LABEL MOVE_BLANK_DOWN_1 COST 1
+X 0 - - - - - - - - - - - - - - => 0 X - - - - - - - - - - - - - - LABEL MOVE_BLANK_LEFT_1 COST 1
+- 0 X - - - - - - - - - - - - - => - X 0 - - - - - - - - - - - - - LABEL MOVE_BLANK_RIGHT_1 COST 1
+- - 0 - - - X - - - - - - - - - => - - X - - - 0 - - - - - - - - - LABEL MOVE_BLANK_DOWN_2 COST 1
+- X 0 - - - - - - - - - - - - - => - 0 X - - - - - - - - - - - - - LABEL MOVE_BLANK_LEFT_2 COST 1
+- - 0 X - - - - - - - - - - - - => - - X 0 - - - - - - - - - - - - LABEL MOVE_BLANK_RIGHT_2 COST 1
+- - - 0 - - - X - - - - - - - - => - - - X - - - 0 - - - - - - - - LABEL MOVE_BLANK_DOWN_3 COST 1
+- - X 0 - - - - - - - - - - - - => - - 0 X - - - - - - - - - - - - LABEL MOVE_BLANK_LEFT_3 COST 1
+X - - - 0 - - - - - - - - - - - => 0 - - - X - - - - - - - - - - - LABEL MOVE_BLANK_UP_4 COST 1
+- - - - 0 - - - X - - - - - - - => - - - - X - - - 0 - - - - - - - LABEL MOVE_BLANK_DOWN_4 COST 1
+- - - - 0 X - - - - - - - - - - => - - - - X 0 - - - - - - - - - - LABEL MOVE_BLANK_RIGHT_4 COST 1
+- X - - - 0 - - - - - - - - - - => - 0 - - - X - - - - - - - - - - LABEL MOVE_BLANK_UP_5 COST 1
+- - - - - 0 - - - X - - - - - - => - - - - - X - - - 0 - - - - - - LABEL MOVE_BLANK_DOWN_5 COST 1
+- - - - X 0 - - - - - - - - - - => - - - - 0 X - - - - - - - - - - LABEL MOVE_BLANK_LEFT_5 COST 1
+- - - - - 0 X - - - - - - - - - => - - - - - X 0 - - - - - - - - - LABEL MOVE_BLANK_RIGHT_5 COST 1
+- - X - - - 0 - - - - - - - - - => - - 0 - - - X - - - - - - - - - LABEL MOVE_BLANK_UP_6 COST 1
+- - - - - - 0 - - - X - - - - - => - - - - - - X - - - 0 - - - - - LABEL MOVE_BLANK_DOWN_6 COST 1
+- - - - - X 0 - - - - - - - - - => - - - - - 0 X - - - - - - - - - LABEL MOVE_BLANK_LEFT_6 COST 1
+- - - - - - 0 X - - - - - - - - => - - - - - - X 0 - - - - - - - - LABEL MOVE_BLANK_RIGHT_6 COST 1
+- - - X - - - 0 - - - - - - - - => - - - 0 - - - X - - - - - - - - LABEL MOVE_BLANK_UP_7 COST 1
+- - - - - - - 0 - - - X - - - - => - - - - - - - X - - - 0 - - - - LABEL MOVE_BLANK_DOWN_7 COST 1
+- - - - - - X 0 - - - - - - - - => - - - - - - 0 X - - - - - - - - LABEL MOVE_BLANK_LEFT_7 COST 1
+- - - - X - - - 0 - - - - - - - => - - - - 0 - - - X - - - - - - - LABEL MOVE_BLANK_UP_8 COST 1
+- - - - - - - - 0 - - - X - - - => - - - - - - - - X - - - 0 - - - LABEL MOVE_BLANK_DOWN_8 COST 1
+- - - - - - - - 0 X - - - - - - => - - - - - - - - X 0 - - - - - - LABEL MOVE_BLANK_RIGHT_8 COST 1
+- - - - - X - - - 0 - - - - - - => - - - - - 0 - - - X - - - - - - LABEL MOVE_BLANK_UP_9 COST 1
+- - - - - - - - - 0 - - - X - - => - - - - - - - - - X - - - 0 - - LABEL MOVE_BLANK_DOWN_9 COST 1
+- - - - - - - - X 0 - - - - - - => - - - - - - - - 0 X - - - - - - LABEL MOVE_BLANK_LEFT_9 COST 1
+- - - - - - - - - 0 X - - - - - => - - - - - - - - - X 0 - - - - - LABEL MOVE_BLANK_RIGHT_9 COST 1
+- - - - - - X - - - 0 - - - - - => - - - - - - 0 - - - X - - - - - LABEL MOVE_BLANK_UP_10 COST 1
+- - - - - - - - - - 0 - - - X - => - - - - - - - - - - X - - - 0 - LABEL MOVE_BLANK_DOWN_10 COST 1
+- - - - - - - - - X 0 - - - - - => - - - - - - - - - 0 X - - - - - LABEL MOVE_BLANK_LEFT_10 COST 1
+- - - - - - - - - - 0 X - - - - => - - - - - - - - - - X 0 - - - - LABEL MOVE_BLANK_RIGHT_10 COST 1
+- - - - - - - X - - - 0 - - - - => - - - - - - - 0 - - - X - - - - LABEL MOVE_BLANK_UP_11 COST 1
+- - - - - - - - - - - 0 - - - X => - - - - - - - - - - - X - - - 0 LABEL MOVE_BLANK_DOWN_11 COST 1
+- - - - - - - - - - X 0 - - - - => - - - - - - - - - - 0 X - - - - LABEL MOVE_BLANK_LEFT_11 COST 1
+- - - - - - - - X - - - 0 - - - => - - - - - - - - 0 - - - X - - - LABEL MOVE_BLANK_UP_12 COST 1
+- - - - - - - - - - - - 0 X - - => - - - - - - - - - - - - X 0 - - LABEL MOVE_BLANK_RIGHT_12 COST 1
+- - - - - - - - - X - - - 0 - - => - - - - - - - - - 0 - - - X - - LABEL MOVE_BLANK_UP_13 COST 1
+- - - - - - - - - - - - X 0 - - => - - - - - - - - - - - - 0 X - - LABEL MOVE_BLANK_LEFT_13 COST 1
+- - - - - - - - - - - - - 0 X - => - - - - - - - - - - - - - X 0 - LABEL MOVE_BLANK_RIGHT_13 COST 1
+- - - - - - - - - - X - - - 0 - => - - - - - - - - - - 0 - - - X - LABEL MOVE_BLANK_UP_14 COST 1
+- - - - - - - - - - - - - X 0 - => - - - - - - - - - - - - - 0 X - LABEL MOVE_BLANK_LEFT_14 COST 1
+- - - - - - - - - - - - - - 0 X => - - - - - - - - - - - - - - X 0 LABEL MOVE_BLANK_RIGHT_14 COST 1
+- - - - - - - - - - - X - - - 0 => - - - - - - - - - - - 0 - - - X LABEL MOVE_BLANK_UP_15 COST 1
+- - - - - - - - - - - - - - X 0 => - - - - - - - - - - - - - - 0 X LABEL MOVE_BLANK_LEFT_15 COST 1
+
+GOAL 0 0 0 0 0 0 0 0 0 0 0 11 12 13 14 15

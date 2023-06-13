@@ -1,0 +1,57 @@
+DOMAIN tile 16
+	0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+16
+
+tile tile tile tile tile tile tile tile tile tile tile tile tile tile tile tile 
+
+0 - - - X - - - - - - - - - - - => X - - - 0 - - - - - - - - - - - LABEL move_blank_down_0
+0 X - - - - - - - - - - - - - - => X 0 - - - - - - - - - - - - - - LABEL move_blank_right_0
+- 0 - - - X - - - - - - - - - - => - X - - - 0 - - - - - - - - - - LABEL move_blank_down_1
+X 0 - - - - - - - - - - - - - - => 0 X - - - - - - - - - - - - - - LABEL move_blank_left_1
+- 0 X - - - - - - - - - - - - - => - X 0 - - - - - - - - - - - - - LABEL move_blank_right_1
+- - 0 - - - X - - - - - - - - - => - - X - - - 0 - - - - - - - - - LABEL move_blank_down_2
+- X 0 - - - - - - - - - - - - - => - 0 X - - - - - - - - - - - - - LABEL move_blank_left_2
+- - 0 X - - - - - - - - - - - - => - - X 0 - - - - - - - - - - - - LABEL move_blank_right_2
+- - - 0 - - - X - - - - - - - - => - - - X - - - 0 - - - - - - - - LABEL move_blank_down_3
+- - X 0 - - - - - - - - - - - - => - - 0 X - - - - - - - - - - - - LABEL move_blank_left_3
+X - - - 0 - - - - - - - - - - - => 0 - - - X - - - - - - - - - - - LABEL move_blank_up_4
+- - - - 0 - - - X - - - - - - - => - - - - X - - - 0 - - - - - - - LABEL move_blank_down_4
+- - - - 0 X - - - - - - - - - - => - - - - X 0 - - - - - - - - - - LABEL move_blank_right_4
+- X - - - 0 - - - - - - - - - - => - 0 - - - X - - - - - - - - - - LABEL move_blank_up_5
+- - - - - 0 - - - X - - - - - - => - - - - - X - - - 0 - - - - - - LABEL move_blank_down_5
+- - - - X 0 - - - - - - - - - - => - - - - 0 X - - - - - - - - - - LABEL move_blank_left_5
+- - - - - 0 X - - - - - - - - - => - - - - - X 0 - - - - - - - - - LABEL move_blank_right_5
+- - X - - - 0 - - - - - - - - - => - - 0 - - - X - - - - - - - - - LABEL move_blank_up_6
+- - - - - - 0 - - - X - - - - - => - - - - - - X - - - 0 - - - - - LABEL move_blank_down_6
+- - - - - X 0 - - - - - - - - - => - - - - - 0 X - - - - - - - - - LABEL move_blank_left_6
+- - - - - - 0 X - - - - - - - - => - - - - - - X 0 - - - - - - - - LABEL move_blank_right_6
+- - - X - - - 0 - - - - - - - - => - - - 0 - - - X - - - - - - - - LABEL move_blank_up_7
+- - - - - - - 0 - - - X - - - - => - - - - - - - X - - - 0 - - - - LABEL move_blank_down_7
+- - - - - - X 0 - - - - - - - - => - - - - - - 0 X - - - - - - - - LABEL move_blank_left_7
+- - - - X - - - 0 - - - - - - - => - - - - 0 - - - X - - - - - - - LABEL move_blank_up_8
+- - - - - - - - 0 - - - X - - - => - - - - - - - - X - - - 0 - - - LABEL move_blank_down_8
+- - - - - - - - 0 X - - - - - - => - - - - - - - - X 0 - - - - - - LABEL move_blank_right_8
+- - - - - X - - - 0 - - - - - - => - - - - - 0 - - - X - - - - - - LABEL move_blank_up_9
+- - - - - - - - - 0 - - - X - - => - - - - - - - - - X - - - 0 - - LABEL move_blank_down_9
+- - - - - - - - X 0 - - - - - - => - - - - - - - - 0 X - - - - - - LABEL move_blank_left_9
+- - - - - - - - - 0 X - - - - - => - - - - - - - - - X 0 - - - - - LABEL move_blank_right_9
+- - - - - - X - - - 0 - - - - - => - - - - - - 0 - - - X - - - - - LABEL move_blank_up_10
+- - - - - - - - - - 0 - - - X - => - - - - - - - - - - X - - - 0 - LABEL move_blank_down_10
+- - - - - - - - - X 0 - - - - - => - - - - - - - - - 0 X - - - - - LABEL move_blank_left_10
+- - - - - - - - - - 0 X - - - - => - - - - - - - - - - X 0 - - - - LABEL move_blank_right_10
+- - - - - - - X - - - 0 - - - - => - - - - - - - 0 - - - X - - - - LABEL move_blank_up_11
+- - - - - - - - - - - 0 - - - X => - - - - - - - - - - - X - - - 0 LABEL move_blank_down_11
+- - - - - - - - - - X 0 - - - - => - - - - - - - - - - 0 X - - - - LABEL move_blank_left_11
+- - - - - - - - X - - - 0 - - - => - - - - - - - - 0 - - - X - - - LABEL move_blank_up_12
+- - - - - - - - - - - - 0 X - - => - - - - - - - - - - - - X 0 - - LABEL move_blank_right_12
+- - - - - - - - - X - - - 0 - - => - - - - - - - - - 0 - - - X - - LABEL move_blank_up_13
+- - - - - - - - - - - - X 0 - - => - - - - - - - - - - - - 0 X - - LABEL move_blank_left_13
+- - - - - - - - - - - - - 0 X - => - - - - - - - - - - - - - X 0 - LABEL move_blank_right_13
+- - - - - - - - - - X - - - 0 - => - - - - - - - - - - 0 - - - X - LABEL move_blank_up_14
+- - - - - - - - - - - - - X 0 - => - - - - - - - - - - - - - 0 X - LABEL move_blank_left_14
+- - - - - - - - - - - - - - 0 X => - - - - - - - - - - - - - - X 0 LABEL move_blank_right_14
+- - - - - - - - - - - X - - - 0 => - - - - - - - - - - - 0 - - - X LABEL move_blank_up_15
+- - - - - - - - - - - - - - X 0 => - - - - - - - - - - - - - - 0 X LABEL move_blank_left_15
+
+GOAL 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
